@@ -1,0 +1,153 @@
+.container
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: flex
+  flex-direction: column
+  background: #f2f2f2
+  header
+    height: 35px
+    border-bottom: 1px solid #ccc
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-shrink: 0
+    background: #fff
+    .back
+      margin-left: 10px
+      font-size: 17px
+    .name
+      font-size: 17px
+  .content
+    flex: 1
+    position: relative
+  main
+    width: 100%
+    flex: auto
+    overflow-y: auto
+    margin-top: 20px
+    .items
+      width: 100%
+      height: 120px
+      display: flex
+      align-items: center
+      .chose
+        display: inline-block
+        width: 10px
+        height: 10px
+        border-radius: 10px
+        border: 1px solid #ccc
+        margin: 0 5px
+      .on
+        background: orange
+      .pic
+        width: 100px
+        height: 100px
+        img
+          width: 100%
+          height: 100%
+      .con
+        display: flex
+        height: 100px
+        flex-direction: column
+        margin-left: 10px
+        justify-content: space-between
+        flex: 1
+        h1
+          display: flex
+          justify-content: space-between
+          .bicname
+            font-size: 16px
+          .del
+            display: inline-block
+            background: #ccc
+            width: 15px
+            height: 15px
+            border-radius: 15px
+            text-align: center
+            line-height: 15px
+            color: #fff
+            margin-right: 10px
+
+        h2
+          .num
+            margin-left: 10px
+        h3
+          display: flex
+          justify-content: space-between
+        .price
+          color: red
+        p
+          margin-right: 10px
+          .add,
+          .reduce,
+          .count
+            display: inline-block
+            width: 20px
+            height: 20px
+            text-align: center
+            line-height: 20px
+            border: 1px solid #ccc
+    .cho
+      height: 30px
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      display: flex
+      justify-content: space-between
+      align-items: center
+      background: #fff
+      border-top: 1px solid #ccc
+      h1
+        margin-left: 15px
+        .all
+          margin-right: 5px
+          display: inline-block
+          width: 10px
+          height: 10px
+          border-radius: 10px
+          border: 1px solid #ccc
+        .allon
+          background: orange
+      h2
+        .money
+          color: red
+      h3
+        width: 20%
+        height: 30px
+        line-height: 30px
+        text-align: center
+        background: red
+        color: #fff
+footer
+  flex-shrink: 0
+  background: #fafafa
+  border-top: 1px solid #ccc
+  ul
+    height: 35px
+    padding: 5px 0
+    display: flex
+    align-items: center
+    justify-content: space-around
+    li
+      text-align: center
+      .foot
+        font-size: 18px
+      .more
+        display: inline-block
+        text-align: center
+        background: #FF8200
+        color: #fff
+        width: 42px
+        height: 36px
+        line-height: 32px
+        font-size: 36px
+        border-radius: 2px
+
+
+
+
+
+

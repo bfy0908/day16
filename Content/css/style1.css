@@ -1,0 +1,147 @@
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2; }
+  .container header {
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #fff; }
+    .container header .back {
+      margin-left: 10px;
+      font-size: 17px; }
+    .container header .name {
+      font-size: 17px; }
+  .container .content {
+    flex: 1;
+    position: relative; }
+  .container main {
+    width: 100%;
+    flex: auto;
+    overflow-y: auto;
+    margin-top: 20px; }
+    .container main .items {
+      width: 100%;
+      height: 120px;
+      display: flex;
+      align-items: center; }
+      .container main .items .chose {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        margin: 0 5px; }
+      .container main .items .on {
+        background: orange; }
+      .container main .items .pic {
+        width: 100px;
+        height: 100px; }
+        .container main .items .pic img {
+          width: 100%;
+          height: 100%; }
+      .container main .items .con {
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        margin-left: 10px;
+        justify-content: space-between;
+        flex: 1; }
+        .container main .items .con h1 {
+          display: flex;
+          justify-content: space-between; }
+          .container main .items .con h1 .bicname {
+            font-size: 16px; }
+          .container main .items .con h1 .del {
+            display: inline-block;
+            background: #ccc;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            text-align: center;
+            line-height: 15px;
+            color: #fff;
+            margin-right: 10px; }
+        .container main .items .con h2 .num {
+          margin-left: 10px; }
+        .container main .items .con h3 {
+          display: flex;
+          justify-content: space-between; }
+        .container main .items .con .price {
+          color: red; }
+        .container main .items .con p {
+          margin-right: 10px; }
+          .container main .items .con p .add,
+          .container main .items .con p .reduce,
+          .container main .items .con p .count {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border: 1px solid #ccc; }
+    .container main .cho {
+      height: 30px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      border-top: 1px solid #ccc; }
+      .container main .cho h1 {
+        margin-left: 15px; }
+        .container main .cho h1 .all {
+          margin-right: 5px;
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          border: 1px solid #ccc; }
+        .container main .cho h1 .allon {
+          background: orange; }
+      .container main .cho h2 .money {
+        color: red; }
+      .container main .cho h3 {
+        width: 20%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background: red;
+        color: #fff; }
+
+footer {
+  flex-shrink: 0;
+  background: #fafafa;
+  border-top: 1px solid #ccc; }
+  footer ul {
+    height: 35px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    footer ul li {
+      text-align: center; }
+      footer ul li .foot {
+        font-size: 18px; }
+      footer ul li .more {
+        display: inline-block;
+        text-align: center;
+        background: #FF8200;
+        color: #fff;
+        width: 42px;
+        height: 36px;
+        line-height: 32px;
+        font-size: 36px;
+        border-radius: 2px; }
+
+/*# sourceMappingURL=style1.css.map */
